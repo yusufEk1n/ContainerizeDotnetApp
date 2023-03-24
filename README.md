@@ -21,7 +21,13 @@ docker create --name <container-name> <image-name>
 Start the container
 
 ```
-docker start <container-name>
+docker start --attach <container-name>
 ```
+## Container Working Tree
 
-
+📁 App
+&nbsp;&nbsp;&nbsp;├── DotNet.Docker
+&nbsp;&nbsp;&nbsp;├── DotNet.Docker.deps.json
+&nbsp;&nbsp;&nbsp;├── DotNet.Docker.dll
+&nbsp;&nbsp;&nbsp;├── DotNet.Docker.pdb
+&nbsp;&nbsp;&nbsp;├── DotNet.Docker.runtimeconfig.json
