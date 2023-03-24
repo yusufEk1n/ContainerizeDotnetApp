@@ -25,9 +25,11 @@ docker start --attach <container-name>
 ```
 ## Container Working Tree
 
+<pre>
 📁 App
-&nbsp;&nbsp;&nbsp;├── DotNet.Docker
-&nbsp;&nbsp;&nbsp;├── DotNet.Docker.deps.json
-&nbsp;&nbsp;&nbsp;├── DotNet.Docker.dll
-&nbsp;&nbsp;&nbsp;├── DotNet.Docker.pdb
-&nbsp;&nbsp;&nbsp;├── DotNet.Docker.runtimeconfig.json
+    ├── DotNet.Docker
+    ├── DotNet.Docker.deps.json
+    ├── DotNet.Docker.dll
+    ├── DotNet.Docker.pdb
+    ├── DotNet.Docker.runtimeconfig.json
+</pre>
